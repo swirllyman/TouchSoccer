@@ -427,17 +427,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbd424d7a12f234ba96491c3c34b414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashMaxHoldDownTime: 1
+  dashRechargeTime: 1
   minDashForce: 0
   maxDashForce: 50
   minDashMag: 10
   maxDashMag: 30
   moveSpeed: 100
-  minMaxMoveDistance: {x: 2, y: 4}
+  dashFillImage: {fileID: 4954914451566182124}
   movementForceMode: 0
-  hitMask:
-    serializedVersion: 2
-    m_Bits: 51
 --- !u!1 &4898675455465328491
 GameObject:
   m_ObjectHideFlags: 0
